@@ -2,9 +2,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- PROJECT METADATA -->
-    <groupId>ch.qos.logback</groupId>
+    <groupId>com.dzer6</groupId>
     <artifactId>logback-s3-rolling-policy</artifactId>
-    <version>GIT-SNAPSHOT</version>
+    <version>1.6</version>
 
     <!-- CODE MANAGEMENT -->
     <scm>
@@ -89,6 +89,14 @@
         </profile>
 
     </profiles>
+
+    <distributionManagement>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars repository</name>
+            <url>https://clojars.org/repo</url>
+        </repository>
+    </distributionManagement>
 
     <build>
 
